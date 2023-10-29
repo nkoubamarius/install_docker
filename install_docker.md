@@ -64,18 +64,5 @@ Redemarrer la machine Virtuel
 
 ## Installer Docker-compose
 
-Utilisez la commande suivante pour télécharger :
+`sudo apt install docker-compose`
 
-`mkdir -p ~/.docker/cli-plugins/`
-
-puis
-
-`curl -SL https://github.com/docker/compose/releases/download/v2.3.3/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
-`
-Ensuite, définissez les autorisations appropriées pour que la docker composecommande soit exécutable :
-
-`chmod +x ~/.docker/cli-plugins/docker-compose`
-
-Pour vérifier que l'installation a réussi, vous pouvez exécuter :
-
-`docker compose version`
